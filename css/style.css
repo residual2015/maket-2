@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;  
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background:url(../image/header_bg.jpg) no-repeat center;
+    margin: 0;
+    padding: 0;
+    height: 894px;
+}
+.header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 24px;
+}
+.logo{
+    background: url(../image/header_logo.png) no-repeat center;
+    width: 49px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 780px;
+    height: 18px;
+}
+.menu li{
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0.45px;
+}
+.header_content{
+    background: url(../image/header_ifone.png) no-repeat right;
+    height: 591px;
+    position: relative;
+    top: 126px; 
+}
+.batton{
+    width: 248px;
+    height: 68px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    position: relative;
+    top: 180px;
+}
+.batton a{
+    width: 248px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_content h1{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.38px;
+    position: relative;
+    top: 119px;
+}
+.header_content p{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    position: relative;
+    top: 119px;
+}
+
+/*------------------------------*/
+.wraper{
+    margin: 0;
+    padding: 0;
+    height: 933px;
+}
+.content{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.content_top p{
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 700;
+    /line-height: 68px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    text-align: center;
+}
+.content_top h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 36px;
+    font-weight: 700;
+    /line-height: 68px;
+    letter-spacing: 0.36px;
+    text-align: center;
+}
+.content_text{
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+}
+.content_text2{
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 154px;
+}
+.content_block{
+    width: 324px;
+    height: 230px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.text{
+    position: relative;
+    top: 40px;
+}
+.content_block1{
+    background: url(../image/content_logo1.png) no-repeat top center;
+}
+.content_block2{
+    background: url(../image/content_logo2.png) no-repeat top center;
+}
+.content_block3{
+    background: url(../image/content_logo3.png) no-repeat top center;
+}
+.content_block4{
+    background: url(../image/content_logo4.png) no-repeat top center;
+}
+.content_block5{
+    background: url(../image/content_logo5.png) no-repeat top center;
+}
+.content_block6{
+    background: url(../image/content_logo6.png) no-repeat top center;
+}
+.content_block h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 501;
+    letter-spacing: 0.18px;
+    text-align: center;
+}
+.content_block p{
+    color: #5c5c5c;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.wraper2{
+    background-color: #f1f1f1;
+    width: 1920px;
+    height: 933px;
+    margin: 0 auto;
+}
+.content2{
+    background: url(../image/content_mobile.png) no-repeat left;
+    max-width: 1170px;
+    height: 760px;
+    margin: 0 auto;
+    position: relative;
+    top: 111px;
+    left:-120px;
+}
+article{
+    font-family: "Arimo";
+    text-align: left;
+    position: relative;
+    top: 155px;
+    left:620px;
+}
+article h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.9px;
+}
+article p{
+    color: #5b5b5b;
+    font-family: "Arimo";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.batton2{
+    width: 573px;
+    height:78px;
+     display: flex;
+     justify-content: space-between;
+    position: relative;
+    top: 215px;
+    left:620px;
+
+}
+.app p{
+    width: 116px;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: relative;
+    left:107px;
+    top:10px;
+
+}
+.app h1{
+    width: 116px;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1.15px;
+    position: relative;
+    left:107px;
+    top:-20px;
+
+}
+.google p{
+    width: 116px;
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: relative;
+    left:107px;
+    top:10px;
+
+}
+.google h1{
+    width: 133px;
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.57px;
+    position: relative;
+    left:107px;
+    top:-20px;
+
+}
+.google{
+    background: url(../image/google.jpg) no-repeat center;
+    width: 273px;
+    height: 78px;
+}
+.app{
+    background: url(../image/ic-apple.jpg) no-repeat center;
+    width: 273px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.wraper3{
+    width: 1920px;
+    height: 688px;
+    background-color: #f8f9f9;
+    margin:0 auto;
+}
+.content3{
+    background: url(../image/ifone-2.png) no-repeat right;
+    max-width: 1170px;
+    height:600px;
+    margin: 0 auto;
+}
+

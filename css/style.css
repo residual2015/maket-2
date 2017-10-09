@@ -379,4 +379,70 @@ ul{
     color: #ff8400;
     border-bottom: 3px solid #ff8400;
 }
-
+.wraper4{
+    background: url(../image/wp-bg4.jpg) no-repeat center;
+    max-width: 1920px;
+    height: 567px;
+    margin:0 auto;
+}
+.content5{
+    max-width: 1170px;
+    height: 567px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content5 h1{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 68px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    position: relative;
+    top:130px;
+}
+.content5 p{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.18px;
+    position: relative;
+    top:110px;
+}
+.in-email{
+    width: 605px;
+    height: 68px;
+    padding-left: 33px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: #fffefe;
+    font-family: "Arimo";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    background-color: transparent;
+    position: relative;
+    top:180px;
+}
+.in-submit{
+    width: 204px;
+    height: 68px;
+    box-shadow: 0 0 25px rgba(255, 132, 0, 0.65);
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    border: 0 none transparent;
+    margin-left: 25px;
+    position: relative;
+    top:180px;
+}

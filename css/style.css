@@ -428,6 +428,10 @@ ul{
     position: relative;
     top:180px;
 }
+.in-email:focus{
+    outline: none;
+
+}
 .in-email::-webkit-input-placeholder {color:#fffefe;}
 .in-email::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
 .in-email:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
@@ -525,9 +529,7 @@ footer form{
 	display: flex;
 	justify-content: space-between;
 }
-footer input{
 
-}
 .name{
 	width: 474px;
 	height: 68px;
@@ -540,6 +542,9 @@ footer input{
 	line-height: 36px;
 	letter-spacing: 1.2px;
 	padding-left: 28px;
+}
+.name:focus{
+    outline: none;
 }
 .email{
 	width: 474px;
@@ -554,6 +559,9 @@ footer input{
 	letter-spacing: 1.2px;
 	padding-left: 28px;
 }
+.email:focus{
+    outline: none;
+}
 .subject{
 	width: 474px;
 	height: 68px;
@@ -567,6 +575,9 @@ footer input{
 	letter-spacing: 1.2px;
 	padding-left: 28px;
 }
+.subject:focus {
+    outline: none;
+}
 textarea{
 	width: 673px;
 	height: 258px;
@@ -579,6 +590,9 @@ textarea{
 	line-height: 36px;
 	letter-spacing: 1.2px;
 	padding-left: 28px;
+}
+textarea:focus {
+    outline: none;
 }
 .name::-webkit-input-placeholder {color:#c0c0c0;}
 .name::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */

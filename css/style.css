@@ -496,7 +496,7 @@ ul{
 	background: url("../image/ic-phone.png") no-repeat left;
 	padding-left: 68px;
 }
-.email{
+.email-adres{
 	width: 317px;
 	height:40px;
 	background: url("../image/ic-mail.png") no-repeat left;
@@ -508,3 +508,99 @@ ul{
 	background: url("../image/ic-location.png") no-repeat left;
 	padding-left: 68px;
 }
+footer{
+	max-width: 1920px;
+	margin:0 auto;
+}
+form{
+	max-width: 1170px;
+	height: 545px;
+	margin:0 auto;
+	padding-top: 77px;
+	display: flex;
+	justify-content: space-between;
+}
+footer input{
+
+}
+.name{
+	width: 474px;
+	height: 68px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #c0c0c0;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.email{
+	width: 474px;
+	height: 68px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #bfbfbf;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.subject{
+	width: 474px;
+	height: 68px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #bfbfbf;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.textarea{
+	width: 673px;
+	height: 258px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #bfbfbf;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.submit{
+	width: 241px;
+	height: 68px;
+	border-radius: 5px;
+	background-color: #ff8400;
+	border: 0 none transparent;
+	color: #ffffff;
+	font-family: "Arimo";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 36px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	text-align: center;
+}
+.left-block{
+	height: 258px;
+	width: 474px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.right-block{
+	height:368px;
+	width: 673px;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+	justify-content: space-between;}

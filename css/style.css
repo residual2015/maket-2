@@ -428,6 +428,11 @@ ul{
     position: relative;
     top:180px;
 }
+.in-email::-webkit-input-placeholder {color:#fffefe;}
+.in-email::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+.in-email:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
+.in-email:-ms-input-placeholder      {color:#fffefe;}
+
 .in-submit{
     width: 204px;
     height: 68px;
@@ -562,7 +567,7 @@ footer input{
 	letter-spacing: 1.2px;
 	padding-left: 28px;
 }
-.textarea{
+textarea{
 	width: 673px;
 	height: 258px;
 	border-radius: 5px;
@@ -575,6 +580,23 @@ footer input{
 	letter-spacing: 1.2px;
 	padding-left: 28px;
 }
+.name::-webkit-input-placeholder {color:#c0c0c0;}
+.name::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+.name:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
+.name:-ms-input-placeholder      {color:#fffefe;}
+.email::-webkit-input-placeholder {color:#c0c0c0;}
+.email::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+.email:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
+.email:-ms-input-placeholder      {color:#fffefe;}
+.subject::-webkit-input-placeholder {color:#c0c0c0;}
+.subject::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+.subject:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
+.subject:-ms-input-placeholder      {color:#fffefe;}
+textarea::-webkit-input-placeholder {color:#c0c0c0;}
+textarea::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+textarea:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
+textarea:-ms-input-placeholder      {color:#fffefe;}
+
 .submit{
 	width: 241px;
 	height: 68px;

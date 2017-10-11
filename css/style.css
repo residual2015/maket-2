@@ -594,22 +594,14 @@ textarea{
 textarea:focus {
     outline: none;
 }
-.name::-webkit-input-placeholder {color:#c0c0c0;}
-.name::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
-.name:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
-.name:-ms-input-placeholder      {color:#fffefe;}
-.email::-webkit-input-placeholder {color:#c0c0c0;}
-.email::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
-.email:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
-.email:-ms-input-placeholder      {color:#fffefe;}
-.subject::-webkit-input-placeholder {color:#c0c0c0;}
-.subject::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
-.subject:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
-.subject:-ms-input-placeholder      {color:#fffefe;}
-textarea::-webkit-input-placeholder {color:#c0c0c0;}
-textarea::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
-textarea:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
-textarea:-ms-input-placeholder      {color:#fffefe;}
+.name::-webkit-input-placeholder ,.email::-webkit-input-placeholder,.subject::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#c0c0c0;}
+
+.name::-moz-placeholder,.email::-moz-placeholder,.subject::-moz-placeholder,textarea::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+
+.name:-moz-placeholder,.email:-moz-placeholder,.subject:-moz-placeholder,textarea:-moz-placeholder
+{color:#fffefe;}/* Firefox 18- */
+
+.name:-ms-input-placeholder,.email:-ms-input-placeholder,.subject:-ms-input-placeholder,textarea:-ms-input-placeholder      {color:#fffefe;}
 
 .submit{
 	width: 241px;
